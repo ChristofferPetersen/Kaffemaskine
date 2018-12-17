@@ -1,0 +1,122 @@
+Projektforslag.
+
+Forbeholder mig retten til at ændre på denne løbende.
+
+Kaffemaskine.
+
+-> Database programmering.
+-> Clientside programmering.
+
+-> Sprog valgt og eller brugt.
+--> HTML.
+---> Layout til maskinen.
+---> Programmer: XAMPP. Visual studio code / Visual studio community 2017.
+
+--> CSS.
+---> Styling af maskinen.
+---> Programmer: XAMPP. Visual studio code / Visual studio community 2017.
+
+--> SQL.
+---> Data opbevaring og hentning.
+---> Programmer: XAMPP, HeidiSQL, Visual studio code / Visual studio community 2017.
+
+--> PHP.
+---> Tilgang til SQL og funktioner.
+---> Programmer: XAMPP. Visual studio code / Visual studio community 2017.
+
+--> Jquery (Optional).
+---> Styling af maskinen.
+---> Programmer: XAMPP. Visual studio code / Visual studio community 2017.
+
+--> C#.
+---> Hvis alt går galt, så bliver det til konsol projekt.
+---> Programmer: Visual studio community 2017.
+
+-> Gennemgang.
+
+<------------------------------------------------------------------------------------------------>
+
+{
+	--> HTML & CSS layout og styling.
+	---> Der skal være et layout i form af en kaffemaskine.
+
+	----> Maskinen skal have knapper som styre brygfunktionerne.
+	----> Maskinen skal have knapper som styre styrke, sukker og mælk/fløde.
+
+	----> Maskinen skal have et display.
+	-----> Displayet skal kunne vise brygnings processen.
+	-----> Displayet skal kunne vise brygnings valg.
+	-----> Displayet skal kunne vise styrke, sukker og mælk / fløde valg.
+
+	----> Maskinen skal have et andet display.
+	-----> Displayet skal vise mængde af kaffe, sukker, kakao, mælk / fløde.
+}
+
+<------------------------------------------------------------------------------------------------>
+
+{
+	--> Database over forskellige brygnings typer.
+	---> Indhold 10 forskellige brygge.
+	----> Kaffe, Mocca, Capuchino, Cafelatte, Espresso, Kaffe med mælk, Kakao, Varm vand, Wiener melange, Kaffe med sukker.
+	
+	---> Beskrivelse af de forskellige typer. (Opskrift).
+	---> Brygge tid.
+	---> Optional. Dårlige kaffe puns.
+
+	--> Databasens opbygning.
+	---> DB navn: Kaffemaskine.
+	---> DB tabel navn: Brygfunktioner.
+	---> DB Kollonner: id, bryg, brygBeskrivelse, tid, puns (Optional), created, modified.
+	---> DB rækker: Info om ovenstående.
+}
+
+<------------------------------------------------------------------------------------------------>
+
+{
+	--> Git projekt.
+	---> Step by step guide. [Jobs done]
+	----> Kort der beskriver de forskellige hovedtasks i projektet. [Jobs done]
+	-----> Kort bliver delt op i mindre men overskueligere tasks. [Jobs done]
+
+	---> Der bliver lavet et Repo til opgaven. [Jobs done]
+	---> Mads / Jakup får et invite til opgaven. (Optional)
+}
+
+<------------------------------------------------------------------------------------------------>
+
+{
+	--> Tegninger / skitser.
+	---> Flowchart.
+	----> Siden der bliver brugt (draw.io).
+	----> Brygnings funktioner.
+	----> Optional. Bruger fremgangs måde.
+	
+	---> Layout tegning af maskinen.
+}
+
+<------------------------------------------------------------------------------------------------>
+
+{
+	--> Forståelig beskrivelse af processen / dokumentation.
+
+	---> Brugerfladen.
+	----> Kunden ankommer til maskinen, herefter trykker han sit ønskede valg af bryg.
+	----> Kunden vælger herefter ønskede styrke af bryg, sukker, mælk / fløde.
+	----> Kunden venter herefter på bryggen bliver færdig, kunden kan følge med på displayet.
+	----> Kunden bliver promtet med en besked om at fjerne sin bryg.
+	----> Kunden kan dernæst nyde sin bryg.
+	
+	---> Koden bagved.
+	----> Ved valg af bryg aktiveres brygfunktion.
+	-----> Tekst bliver vist i displayet. (Marquee). (Jquery). (HTML & CSS).
+	----> Informationer bliver hentet fra databasen og sat ind i displayet. (SQL statements).
+	----> Knapper skal styles via (CSS), (Jquery). Knapper skal Forbindes til de funktioner der er dertilhørende.
+
+	---> Tanker om projektet.
+	----> Jeg tænker det er et overskueligt projekt inden for tidsrammen.
+	----> Det virker umiddelbart simpelt, dog skal man ikke undervurdere projektet.
+	----> Det svære bliver at få det til at hænge ordentligt sammen.
+	----> Har en ide om dette nok bliver meget mere omfattende end jeg regner med.
+}
+
+<------------------------------------------------------------------------------------------------>
