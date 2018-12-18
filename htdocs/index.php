@@ -46,11 +46,18 @@
                 </div>
             </div>
 
+            <?php
+                $sql = "SELECT * FROM brygfunktioner";
+            ?>
+
             <div id="bottom">
                 <div id="display">
-                   <h1>Test</h1>
-                   <h2>Test</h2>
-                   <h3>Test</h3>                    
+                   <h1 id="brygdisplay">Bryg</h1>
+                   <h2 id="beskrivelsedisplay">Beskrivelse</h2>
+                   <h3 id="tiddisplay">Tid</h3>
+                   <h3 id="styrkedisplay">Styrke</h3>
+                   <h3 id="sukkerdisplay">Sukker</h3>
+                   <h3 id="maelkdisplay">Mælk</h3>
                 </div>
 
                 <div id="indsats">
@@ -65,23 +72,23 @@
 
                 <div id="knapper">
                     <div id="bryg">
-                        <button>Kaffe</button>
-                        <button>Kaffe med sukker</button>
-                        <button>Kaffe med mælk</button>
-                        <button>Espresso</button>
-                        <button>Mocca</button>
-                        <button>Cappuccino</button>
-                        <button>Cafelatte</button>
-                        <button>Wiener melange</button>
-                        <button>Kakao</button>
-                        <button>Varmt vand</button>
+                        <button id="knap1">Kaffe</button>
+                        <button id="knap2">Kaffe med sukker</button>
+                        <button id="knap3">Kaffe med mælk</button>
+                        <button id="knap4">Espresso</button>
+                        <button id="knap5">Mocca</button>
+                        <button id="knap6">Cappuccino</button>
+                        <button id="knap7">Cafelatte</button>
+                        <button id="knap8">Wiener melange</button>
+                        <button id="knap9">Kakao</button>
+                        <button id="knap10">Varmt vand</button>
                     </div>
 
                     <div id="kontrol">
-                        <button>Styrke +</button>
-                        <button>Sukker +</button>
-                        <button>Mælk +</button>
-                        <button>Start bryg</button>
+                        <button id="knap11">Styrke +</button>
+                        <button id="knap12">Sukker +</button>
+                        <button id="knap13">Mælk +</button>
+                        <button id="knap14">Start bryg</button>
                     </div>                    
                 </div>
             </div>
