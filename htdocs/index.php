@@ -1,10 +1,14 @@
+<?php
+    include_once("conn.php");
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="script.js"></script>
+        <script src="script.js"></script>        
     </head>
     <body>
         <div id="maskineBaggrund">
@@ -44,7 +48,9 @@
 
             <div id="bottom">
                 <div id="display">
-
+                   <h1>Test</h1>
+                   <h2>Test</h2>
+                   <h3>Test</h3>                    
                 </div>
 
                 <div id="indsats">
