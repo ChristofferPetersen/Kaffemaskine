@@ -1,0 +1,138 @@
+body {
+    background-color: #6f4537;
+}
+
+#maskineBaggrund {    
+    position: absolute;
+    top: 1vh;
+    left: 30vw;
+    background-color: black;
+    width: 40vw;
+    height: 90vh;
+}
+
+#top {
+    background-color: silver;
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    width: auto;
+    height: 45vh;
+    padding: 20px;
+}
+
+#maelkFloede {
+    display: inline-block;
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+    background-color: whitesmoke;
+    width: 4.5vw;
+    height: 45vh;
+}
+
+#sukker {    
+    display: inline-block;
+    position: absolute;
+    top: 2vh;
+    left: 6vw;
+    background-color: whitesmoke;
+    width: 4.5vw;
+    height: 45vh;
+}
+
+#kakao {
+    display: inline-block;
+    position: absolute;
+    top: 2vh;
+    left: 11vw;
+    background-color: chocolate;
+    width: 9.5vw;
+    height: 45vh;
+}
+
+#kaffe {
+    display: inline-block;
+    position: absolute;
+    top: 2vh;
+    left: 21.5vw;
+    background-color: #6f4537;
+    width: 17.5vw;
+    height: 45vh;
+}
+
+#bottom {
+    background-color: black;
+    width: auto;
+    height: 45vh;
+    padding: 20px;
+}
+
+#display {
+    display: inline-block;
+    position: absolute;
+    top: 51vh;
+    left: 1vw;
+    background-color: chartreuse;
+    width: 19.5vw;
+    height: 12vh;
+}
+
+#indsats {
+    display: inline-block;
+    position: absolute;
+    top: 51vh;
+    left: 21.5vw;
+    background-color: silver;
+    width: 17.5vw;
+    height: 45vh;
+}
+
+#kopHolder {    
+    position: absolute;
+    top: 30vh;
+    left: 1vw;
+    background-color: black;
+    width: 15.5vw;
+    height: 3vh;
+}
+
+#drypbakke {
+    position: absolute;
+    top: 35vh;
+    left: 1vw;
+    background-color: black;
+    width: 15.5vw;
+    height: 8vh;
+}
+
+#knapper {
+    position: absolute;
+    top: 65vh;
+    left: 1vw;
+    display: grid;
+    grid-template-columns: 9.25vw 9.25vw;
+    grid-column-gap: 1vw;    
+}
+
+#bryg {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#bryg button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+#kontrol {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#kontrol button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+}
