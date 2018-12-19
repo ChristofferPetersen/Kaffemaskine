@@ -5,10 +5,10 @@
     $dbName = "Kaffemaskine";
 
     //Skab forbindelse.
-    $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+    $conn = new mysqli($dbServername, $dbUsername, $dbPassword, $dbName);
 
     //Tjek forbindelse.
-    if (!$conn) {
-        die("Connection failed: " . mysqli_connect_error());
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
     }
 ?>
