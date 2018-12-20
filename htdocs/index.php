@@ -14,6 +14,7 @@
         <div id="maskineBaggrund">
             <div id="top">
                 <div id="maelkFloede">
+                    <h3 id="mælkMængde">100%</h3>
                     <h1>M</h1>
                     <h1>Æ</h1>
                     <h1>L</h1>
@@ -21,6 +22,7 @@
                 </div>
 
                 <div id="sukker">
+                    <h3 id="sukkerMængde">100%</h3>
                     <h1>S</h1>
                     <h1>U</h1>
                     <h1>K</h1>
@@ -30,6 +32,7 @@
                 </div>
 
                 <div id="kakao">
+                    <h3 id="kakaoMængde">100%</h3>
                     <h1>K</h1>
                     <h1>A</h1>
                     <h1>K</h1>
@@ -38,6 +41,7 @@
                 </div>
 
                 <div id="kaffe">
+                    <h3 id="kaffeMængde">100%</h3>
                     <h1>K</h1>
                     <h1>A</h1>
                     <h1>F</h1>
