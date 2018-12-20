@@ -29,6 +29,8 @@ body {
     background-color: whitesmoke;
     width: 4.5vw;
     height: 45vh;
+    border-radius: 100px;
+    border: 1.5px ridge black;
 }
 
 #sukker {    
@@ -39,6 +41,8 @@ body {
     background-color: whitesmoke;
     width: 4.5vw;
     height: 45vh;
+    border-radius: 100px;
+    border: 1.5px ridge black;
 }
 
 #kakao {
@@ -49,6 +53,8 @@ body {
     background-color: chocolate;
     width: 9.5vw;
     height: 45vh;
+    border-radius: 100px;
+    border: 1.5px ridge black;
 }
 
 #kaffe {
@@ -56,9 +62,11 @@ body {
     position: absolute;
     top: 2vh;
     left: 21.5vw;
-    background-color: #6f4537;
+    background-color: #6f4e37;
     width: 17.5vw;
     height: 45vh;
+    border-radius: 100px;
+    border: 1.5px ridge black;
 }
 
 #bottom {
@@ -77,6 +85,7 @@ body {
     background-color: chartreuse;
     width: 19.5vw;
     height: 12vh;
+    border: 3px ridge darkgreen;
 }
 
 #display h3#brygdisplay {
@@ -93,7 +102,7 @@ body {
     left: 1vw;
 }
 
-#display p#tiddisplay {
+#display h3#tiddisplay {
     display: none;
     position: absolute;
     top: 6.5vh;
@@ -129,6 +138,7 @@ body {
     background-color: silver;
     width: 17.5vw;
     height: 45vh;
+    border: 1.5px solid darkslategray;
 }
 
 #kopHolder {    
@@ -137,7 +147,9 @@ body {
     left: 1vw;
     background-color: black;
     width: 15.5vw;
-    height: 3vh;
+    height: 3vh;    
+    border-radius: 100px;
+    border: 1.5px solid darkslategray;
 }
 
 #drypbakke {
@@ -147,6 +159,8 @@ body {
     background-color: black;
     width: 15.5vw;
     height: 8vh;
+    border-radius: 25px;
+    border: 1.5px solid darkslategray;
 }
 
 #knapper {

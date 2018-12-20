@@ -50,7 +50,7 @@
                 <div id="display">                    
                    <h3 id="brygdisplay">Brygnavn</h3>
                    <p id="beskrivelsedisplay">Beskrivelse af bryg</p>
-                   <p id="tiddisplay">Tid på bryg</p>
+                   <h3 id="tiddisplay">Tid på bryg</h3>
                    <p id="styrkedisplay">Styrke</p>
                    <p id="sukkerdisplay">Sukker</p>
                    <p id="maelkdisplay">Mælk</p>
