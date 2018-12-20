@@ -103,22 +103,22 @@ body {
 #display p#styrkedisplay {
     display: none;
     position: absolute;
-    top: 0vh;
-    right: 2vw;
+    top: 6.5vh;
+    left: 3vw;
 }
 
 #display p#sukkerdisplay {
     display: none;
     position: absolute;
-    top: 3vh;
-    right: 2vw;
+    top: 6.5vh;
+    left: 8vw;
 }
 
 #display p#maelkdisplay {
     display: none;
     position: absolute;
-    top: 6vh;
-    right: 2vw;
+    top: 6.5vh;
+    left: 13vw;
 }
 
 #indsats {

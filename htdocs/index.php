@@ -47,34 +47,14 @@
             </div>           
 
             <div id="bottom">
-                <div id="display">
-                    <?php
-                        $sql = "SELECT navn, beskrivelse, tid FROM brygfunktioner";
-                        $result = $conn->query($sql);
-
-                        if($result->num_rows > 0)
-                        {
-                            while($row = $result->fetch_assoc())
-                            {
-                    ?>
-
-                   <h3 id="brygdisplay"><?php echo $row['navn'] ?></h3>
-                   <p id="beskrivelsedisplay"><?php echo $row['beskrivelse'] ?></p>
-                   <p id="tiddisplay"><?php echo $row['tid'] ?></p>
+                <div id="display">                    
+                   <h3 id="brygdisplay">Brygnavn</h3>
+                   <p id="beskrivelsedisplay">Beskrivelse af bryg</p>
+                   <p id="tiddisplay">Tid på bryg</p>
                    <p id="styrkedisplay">Styrke</p>
                    <p id="sukkerdisplay">Sukker</p>
                    <p id="maelkdisplay">Mælk</p>
-
-                   <?php
-                            }
-                        }
-                        else
-                        {
-                            echo "Fail";
-                        }
-                        $conn->close();
-                    ?>
-                </div>
+               </div>
 
                 <div id="indsats">
                     <div id="kopHolder">

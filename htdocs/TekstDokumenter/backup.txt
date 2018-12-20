@@ -1,3 +1,6 @@
+//Kode med Database indhold på siden, virker ikke helt.
+//Skal have sepereret alle data felter.
+
 <?php
     include_once("conn.php");
 ?>
