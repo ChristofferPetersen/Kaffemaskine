@@ -228,7 +228,12 @@ function Knaptryk() {
                 if(stopUr > 0)
                 {
                     stopUr -= 1
-                    $("h3#tiddisplay").text(stopUr)
+                    $("h3#tiddisplay").text(stopUr)                   
+
+                    $("#draabe1").fadeToggle(100)
+                    $("#draabe2").fadeToggle(200)
+                    $("#draabe3").fadeToggle(300)
+                    $("#draabe4").fadeToggle(400)
                 }
                 else
                 {                

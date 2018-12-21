@@ -141,6 +141,56 @@ body {
     border: 1.5px solid darkslategray;
 }
 
+#kaffedraaber {
+    position: absolute;
+    top: 0vh;
+    left: 5.5vw;
+}
+
+#draabe1 {
+    display: none;
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+    background-color: #6f4e37;    
+    width: 0.5vw;
+    height: 1.5vh;
+    border-radius: 1000px;
+}
+
+#draabe2 {
+    display: none;
+    position: absolute;
+    top: 2vh;
+    left: 4vw;
+    background-color: #6f4e37;    
+    width: 0.5vw;
+    height: 1.5vh;
+    border-radius: 1000px;
+}
+
+#draabe3 {
+    display: none;
+    position: absolute;
+    top: 5vh;
+    left: 2vw;
+    background-color: #6f4e37;    
+    width: 0.5vw;
+    height: 1.5vh;
+    border-radius: 1000px;
+}
+
+#draabe4 {
+    display: none;
+    position: absolute;
+    top: 6vh;
+    left: 4vw;
+    background-color: #6f4e37;    
+    width: 0.5vw;
+    height: 1.5vh;
+    border-radius: 1000px;
+}
+
 #kopHolder {    
     position: absolute;
     top: 30vh;

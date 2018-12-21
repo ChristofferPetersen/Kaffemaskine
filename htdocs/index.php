@@ -61,7 +61,26 @@
                </div>
 
                 <div id="indsats">
+                    <div id="kaffedraaber">
+                        <div id="draabe1">
+
+                        </div>
+
+                        <div id="draabe2">
+                            
+                        </div>
+
+                        <div id="draabe3">
+                            
+                        </div>
+
+                        <div id="draabe4">
+                            
+                        </div>
+                    </div>
+
                     <img id="kopBæger" src="../Billeder/starwars.png" alt="kop">
+
                     <div id="kopHolder">
                         <button id="kop">Kop</button>
                     </div>
