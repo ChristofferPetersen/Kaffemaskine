@@ -2,9 +2,13 @@ function Knaptryk() {
     var tid = 0;
     var stopUr = 0;
     var kaffeMængde = 100;
+    var kaffeMængdeChanged = 0;
     var kakaoMængde = 100;
+    var kakaoMængdeChanged = 0;
     var sukkerMængde = 100;
+    var sukkerMængdeChanged = 0;
     var mælkMængde = 100;
+    var mælkMængdeChanged = 0;
 
     if(kaffeMængde < 0 || kakaoMængde < 0 || sukkerMængde < 0 || mælkMængde < 0)
     {
@@ -16,7 +20,10 @@ function Knaptryk() {
         $("button#knap1").click(function() {
             tid = 10000
             stopUr = 10
-            kaffeMængde -= 1
+            kaffeMængdeChanged = -1
+            kakaoMængdeChanged = 0
+            sukkerMængdeChanged = 0
+            mælkMængdeChanged = 0
 
             $("h3#brygdisplay").show().text("Kaffe.")
             $("p#beskrivelsedisplay").show().text("Sort kaffe uden sukker og mælk.")
@@ -30,8 +37,10 @@ function Knaptryk() {
         $("button#knap2").click(function() {
             tid = 12000
             stopUr = 12
-            kaffeMængde -= 1
-            sukkerMængde -= 1
+            kaffeMængdeChanged = -1
+            kakaoMængdeChanged = 0
+            sukkerMængdeChanged = -1
+            mælkMængdeChanged = 0
 
             $("h3#brygdisplay").show().text("Kaffe med sukker.")
             $("p#beskrivelsedisplay").show().text("Sort kaffe med sukker.")
@@ -45,8 +54,10 @@ function Knaptryk() {
         $("button#knap3").click(function() {
             tid = 12000
             stopUr = 12
-            kaffeMængde -= 1
-            mælkMængde -= 1
+            kaffeMængdeChanged = -1
+            kakaoMængdeChanged = 0
+            sukkerMængdeChanged = 0
+            mælkMængdeChanged = -1
 
             $("h3#brygdisplay").show().text("Kaffe med mælk.")
             $("p#beskrivelsedisplay").show().text("Sort kaffe med mælk.")
@@ -60,7 +71,10 @@ function Knaptryk() {
         $("button#knap4").click(function() {
             tid = 10000
             stopUr = 10
-            kaffeMængde -= 2
+            kaffeMængdeChanged = -2
+            kakaoMængdeChanged = 0
+            sukkerMængdeChanged = 0
+            mælkMængdeChanged = 0
 
             $("h3#brygdisplay").show().text("Espresso.")
             $("p#beskrivelsedisplay").show().text("Halv kop med ekstra stærk kaffe.")
@@ -74,8 +88,10 @@ function Knaptryk() {
         $("button#knap5").click(function() {
             tid = 15000
             stopUr = 15
-            kaffeMængde -= 1
-            kakaoMængde -= 1
+            kaffeMængdeChanged = -1
+            kakaoMængdeChanged = -1
+            sukkerMængdeChanged = 0
+            mælkMængdeChanged = 0
 
             $("h3#brygdisplay").show().text("Mocca.")
             $("p#beskrivelsedisplay").show().text("Kvalitets kaffe fusioneret med kakao.")
@@ -89,8 +105,10 @@ function Knaptryk() {
         $("button#knap6").click(function() {
             tid = 15000
             stopUr = 15
-            kaffeMængde -= 1
-            mælkMængde -= 1
+            kaffeMængdeChanged = -1
+            kakaoMængdeChanged = 0
+            sukkerMængdeChanged = 0
+            mælkMængdeChanged = -1
 
             $("h3#brygdisplay").show().text("Cappuccino.")
             $("p#beskrivelsedisplay").show().text("Espresso med skummet varm mælk.")
@@ -104,8 +122,10 @@ function Knaptryk() {
         $("button#knap7").click(function() {
             tid = 15000
             stopUr = 15
-            kaffeMængde -= 1
-            mælkMængde -= 2
+            kaffeMængdeChanged = -1
+            kakaoMængdeChanged = 0
+            sukkerMængdeChanged = 0
+            mælkMængdeChanged = -2
 
             $("h3#brygdisplay").show().text("Cafelatte.")
             $("p#beskrivelsedisplay").show().text("Kaffe med 2/3 dele mælk.")
@@ -119,10 +139,10 @@ function Knaptryk() {
         $("button#knap8").click(function() {
             tid = 15000
             stopUr = 15
-            kaffeMængde -= 1
-            sukkerMængde -= 1
-            mælkMængde -= 1
-            kakaoMængde -= 1
+            kaffeMængdeChanged = -1
+            sukkerMængdeChanged = -1
+            mælkMængdeChanged = -1
+            kakaoMængdeChanged = -1
 
             $("h3#brygdisplay").show().text("Wiener melange.")
             $("p#beskrivelsedisplay").show().text("En herlig blanding af kaffe med mælk, sukker og blandet med kakao.")
@@ -136,12 +156,15 @@ function Knaptryk() {
         $("button#knap9").click(function() {
             tid = 10000
             stopUr = 10
-            kakaoMængde -= 1
+            kaffeMængdeChanged = 0
+            kakaoMængdeChanged = -1
+            sukkerMængdeChanged = 0
+            mælkMængdeChanged = 0
         
             $("h3#brygdisplay").show().text("Kakao.")
             $("p#beskrivelsedisplay").show().text("Varm kakao baseret på vand.")
             $("h3#tiddisplay").show().text("10")
-            $("button#knap11").show()
+            $("button#knap11").hide()
             $("button#knap12").hide()
             $("button#knap13").hide()
         })
@@ -150,6 +173,10 @@ function Knaptryk() {
         $("button#knap10").click(function() {
             tid = 6000
             stopUr = 6
+            kaffeMængdeChanged = 0
+            kakaoMængdeChanged = 0
+            sukkerMængdeChanged = 0
+            mælkMængdeChanged = 0
 
             $("h3#brygdisplay").show().text("Varmt vand.")
             $("p#beskrivelsedisplay").show().text("Kogende vand 99 grader... Hot, hot & hot.")
@@ -162,21 +189,37 @@ function Knaptryk() {
         //--Styrke--//
         $("button#knap11").click(function() {
             $("p#styrkedisplay").show().text("Styrke +")
+            kaffeMængdeChanged -= 1
+            kakaoMængdeChanged -= 0
+            sukkerMængdeChanged -= 0
+            mælkMængdeChanged -= 0
         })
 
         //--Sukker--//
         $("button#knap12").click(function() {
             $("p#sukkerdisplay").show().text("Sukker +")
+            kaffeMængdeChanged -= 0
+            kakaoMængdeChanged -= 0
+            sukkerMængdeChanged -= 1
+            mælkMængdeChanged -= 0
         })
 
         //--Mælk--//
         $("button#knap13").click(function() {
             $("p#maelkdisplay").show().text("Mælk +")
+            kaffeMængdeChanged -= 0
+            kakaoMængdeChanged -= 0
+            sukkerMængdeChanged -= 0
+            mælkMængdeChanged -= 1
         })        
     }
 
     //--Start bryg--//
     $("button#knap14").click(function() {
+        kaffeMængde += kaffeMængdeChanged
+        kakaoMængde += kakaoMængdeChanged
+        sukkerMængde += sukkerMængdeChanged
+        mælkMængde += mælkMængdeChanged
 
         var timer = setInterval(function() {
             if(stopUr > 0)
