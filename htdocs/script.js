@@ -9,7 +9,7 @@ function Knaptryk() {
     var sukkerMængdeChanged = 0;
     var mælkMængde = 100;
     var mælkMængdeChanged = 0;
-
+    
     $("button#kop").click(function() {
         $("img#kopBæger").toggle()
 
