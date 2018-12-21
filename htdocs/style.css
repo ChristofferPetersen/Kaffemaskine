@@ -152,6 +152,24 @@ body {
     border: 1.5px solid darkslategray;
 }
 
+#kop {
+    position: absolute;
+    top: 0vh;
+    left: 4.7vw;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+#kopBæger {
+    display: none;
+    position: absolute;
+    top: 5.5vh;
+    left: -1vw;
+    width: 17vw;
+    height: 25vh;
+}
+
 #drypbakke {
     position: absolute;
     top: 35vh;

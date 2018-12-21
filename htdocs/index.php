@@ -61,8 +61,9 @@
                </div>
 
                 <div id="indsats">
+                    <img id="kopBæger" src="../Billeder/starwars.png" alt="kop">
                     <div id="kopHolder">
-
+                        <button id="kop">Indsæt kop</button>
                     </div>
 
                     <div id="drypbakke">
